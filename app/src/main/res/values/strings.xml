@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Nom-Nom_Show</string>
+    <string name="title_activity_display_message">Продукты</string>
+    <string name="title_activity_start_screen">Кухня</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_top_rec">Лучшее</string>
+    <string name="title_activity_chiefs">Шефы</string>
+    <string name="title_activity_tolist">Выберите рецепт</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_first_recepie">first_recepie</string>
+    <string name="title_activity_second_recepie">second_recepie</string>
+    <string name="title_activity_third_recepie">third_recepie</string>
+
+
+
+</resources>

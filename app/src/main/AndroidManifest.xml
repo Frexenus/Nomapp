@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.insdev.nomapp_show" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconfridge"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Start_Screen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".Start_Screen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.insdev.nomapp_show.Start_Screen" />
+        </activity>
+        <activity
+            android:name=".TopRecActivity"
+            android:label="@string/title_activity_top_rec"
+            android:parentActivityName=".Start_Screen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.insdev.nomapp_show.Start_Screen" />
+        </activity>
+        <activity
+            android:name=".ChiefsActivity"
+            android:label="@string/title_activity_chiefs"
+            android:parentActivityName=".Start_Screen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.insdev.nomapp_show.Start_Screen" />
+        </activity>
+        <activity
+            android:name=".Tolist"
+            android:label="@string/title_activity_tolist"
+            android:parentActivityName=".DisplayMessageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.insdev.nomapp_show.DisplayMessageActivity" />
+        </activity>
+        <activity
+            android:name=".first_recepie"
+            android:label="@string/title_activity_first_recepie"
+            android:parentActivityName=".Tolist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.insdev.nomapp_show.Tolist" />
+        </activity>
+        <activity
+            android:name=".second_recepie"
+            android:label="@string/title_activity_second_recepie"
+            android:parentActivityName=".Tolist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.insdev.nomapp_show.Tolist" />
+        </activity>
+        <activity
+            android:name=".third_recepie"
+            android:label="@string/title_activity_third_recepie"
+            android:parentActivityName=".Tolist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.insdev.nomapp_show.Tolist" />
+        </activity>
+    </application>
+
+</manifest>
