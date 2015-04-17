@@ -8,9 +8,9 @@
     <string name="title_activity_tolist">Выберите рецепт</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_first_recepie">first_recepie</string>
-    <string name="title_activity_second_recepie">second_recepie</string>
-    <string name="title_activity_third_recepie">third_recepie</string>
+    <string name="title_activity_first_recepie">Яичница</string>
+    <string name="title_activity_second_recepie">Омлет</string>
+    <string name="title_activity_third_recepie">Чебуреки</string>
 
 
 

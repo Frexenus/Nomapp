@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
-        android:src="@drawable/fridge_button"
+        android:src="@drawable/fridge_button_rus"
         android:focusable="false"
         android:cropToPadding="false"
         android:clickable="true"
@@ -45,8 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton2"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/toprep_button"
+        android:src="@drawable/toprep_button_rus_sh"
         android:padding="0dp"
         android:paddingLeft="0dp"
         android:paddingTop="0dp"
@@ -55,22 +54,22 @@
         android:paddingEnd="0dp"
         android:paddingStart="0dp"
         android:scaleType="fitCenter"
-        android:layout_below="@+id/imageButton"
-        android:layout_alignParentEnd="true"
         android:adjustViewBounds="true"
         android:alpha="1"
         android:onClick="TopRecepies"
-        android:clickable="true" />
+        android:clickable="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView3"
-        android:src="@drawable/chiefs_button"
-        android:layout_marginTop="154dp"
-        android:layout_below="@+id/imageButton"
-        android:layout_alignParentStart="true"
+        android:src="@drawable/chiefs_button_rus_sh"
         android:nestedScrollingEnabled="false"
         android:onClick="Chiefs"
-        android:clickable="true" />
+        android:clickable="true"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
 </RelativeLayout>
