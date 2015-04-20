@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Nom-Nom_Show</string>
+    <string name="app_name">Nomapp_Show</string>
     <string name="title_activity_display_message">Продукты</string>
     <string name="title_activity_start_screen">Кухня</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_top_rec">Лучшее</string>
+    <string name="title_activity_top_rec">Рецепты</string>
     <string name="title_activity_chiefs">Шефы</string>
     <string name="title_activity_tolist">Выберите рецепт</string>
 
