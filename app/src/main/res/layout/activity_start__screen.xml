@@ -14,6 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
+
         android:src="@drawable/fridge_button_rus"
         android:focusable="false"
         android:cropToPadding="false"
@@ -45,6 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
         android:src="@drawable/toprep_button_rus_sh"
         android:padding="0dp"
         android:paddingLeft="0dp"
@@ -52,7 +54,6 @@
         android:paddingRight="0dp"
         android:paddingBottom="0dp"
         android:paddingEnd="0dp"
-        android:paddingStart="0dp"
         android:scaleType="fitCenter"
         android:adjustViewBounds="true"
         android:alpha="1"

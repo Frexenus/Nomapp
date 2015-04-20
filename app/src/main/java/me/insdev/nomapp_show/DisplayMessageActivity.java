@@ -3,8 +3,6 @@ package me.insdev.nomapp_show;
 import android.content.Intent;
 import android.view.View;
 import android.widget.CheckBox;
-
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
