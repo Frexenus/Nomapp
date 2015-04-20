@@ -26,9 +26,12 @@ public class third_recepie extends /*Activity*/ SampleActivityBase {
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             SlidingTabsBasicFragment fragment = new SlidingTabsBasicFragment();
+
             transaction.replace(R.id.sample_content_fragment, fragment);
             transaction.commit();
+
         }
+
     }
 
 
