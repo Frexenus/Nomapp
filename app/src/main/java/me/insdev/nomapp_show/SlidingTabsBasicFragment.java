@@ -25,6 +25,8 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.graphics.Color;
 
@@ -152,6 +154,26 @@ public class SlidingTabsBasicFragment extends Fragment {
 
             // Retrieve a TextView from the inflated View, and update it's text
             TextView title = (TextView) view.findViewById(R.id.item_title);
+            ImageView ib = (ImageView) view.findViewById(R.id.imageButton8);
+            if (position == 0){
+                ib.setImageDrawable(getResources().getDrawable(R.drawable.step_1_1));
+            }
+            if (position == 1){
+                ib.setImageDrawable(getResources().getDrawable(R.drawable.step_2));
+            }
+            if (position == 2){
+                ib.setImageDrawable(getResources().getDrawable(R.drawable.step_3));
+            }
+            if (position == 3){
+                ib.setImageDrawable(getResources().getDrawable(R.drawable.step_4));
+            }
+            if (position == 4){
+                ib.setImageDrawable(getResources().getDrawable(R.drawable.step_5_1));
+            }
+            if (position == 5){
+                ib.setImageDrawable(getResources().getDrawable(R.drawable.step_6_1));
+            }
+
             title.setText(String.valueOf(position + 1));
 
 
